@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a0840d68ee29343996fe34794649d0, type: 3}
+  m_Name: Poee
+  m_EditorClassIdentifier: 
+  icon: {fileID: 972692979, guid: 6b324a36eb228754880c3078979b16a0, type: 3}
+  name: Poee
+  description: The glory dispelled the darkness.
+  price: 10
+  isUnlocked: 0
+  characterSprite: {fileID: 972692979, guid: 6b324a36eb228754880c3078979b16a0, type: 3}
+  startingWeaponSprite: {fileID: 21300000, guid: 2b9fa2ff6dc73c74a8593fe845401f46, type: 3}
+  startingWeapon: {fileID: 11400000, guid: 81a944cd82c27014ba89f42fe7dd2f90, type: 2}
+  animatorController: {fileID: 9100000, guid: eb833fd5902b83d439d09e90e24a6349, type: 2}
+  stats:
+    maxHealth: 70
+    recovery: 0.2
+    armor: 0
+    moveSpeed: 1
+    might: 1
+    area: 1
+    speed: 1
+    duration: 1
+    amount: 0
+    cooldown: 1
+    luck: 1
+    growth: 1
+    magnet: 2.25

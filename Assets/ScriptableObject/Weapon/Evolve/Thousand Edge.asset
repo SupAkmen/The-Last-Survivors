@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddcd748423b6144f85190b222368dc1, type: 3}
+  m_Name: Thousand Edge
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2047907646, guid: 4ea0503b2aa27e74d9d00bc72eacccc5, type: 3}
+  maxLevel: 1
+  evolutionData: []
+  behaviour: None
+  baseStats:
+    name: Thousand Edge
+    description: Shoots a never-ending stream of knife projectiles
+    projectilePrefab: {fileID: 3535785764034786577, guid: d8430da86d6be4b49818c6b67e5841b8, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 5
+    damage: 16.5
+    damageVariance: 3
+    area: 1
+    speed: 10
+    cooldown: 0.35
+    projectileInterval: 0.05
+    knockback: 0.5
+    number: 6
+    piercing: 10
+  linearGrowth: []
+  randomGrowth: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a0840d68ee29343996fe34794649d0, type: 3}
+  m_Name: Lightning Ring
+  m_EditorClassIdentifier: 
+  icon: {fileID: -680528249, guid: 0e3d548bf66349d47a9e7f20afb7db49, type: 3}
+  name: Akali
+  description: The lightning struck the monster.
+  price: 40
+  isUnlocked: 0
+  characterSprite: {fileID: -680528249, guid: 0e3d548bf66349d47a9e7f20afb7db49, type: 3}
+  startingWeaponSprite: {fileID: -188519836, guid: 4ea0503b2aa27e74d9d00bc72eacccc5, type: 3}
+  startingWeapon: {fileID: 11400000, guid: 3b049dbeb8324d74e8fdb2543e05e1a5, type: 2}
+  animatorController: {fileID: 9100000, guid: 4dce44ca614e0414fb78ab04757b9291, type: 2}
+  stats:
+    maxHealth: 100
+    recovery: 0.2
+    armor: 0
+    moveSpeed: 1
+    might: 1.1
+    area: 1
+    speed: 1
+    duration: 1
+    amount: 0
+    cooldown: 1
+    luck: 1
+    growth: 1
+    magnet: 1.8

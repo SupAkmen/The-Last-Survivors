@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a0840d68ee29343996fe34794649d0, type: 3}
+  m_Name: Knife(Gennero)
+  m_EditorClassIdentifier: 
+  icon: {fileID: -215449490, guid: 497c36e179980bd4092c25738963b10f, type: 3}
+  name: Yasuo
+  description: African sword damage.
+  price: 0
+  isUnlocked: 1
+  characterSprite: {fileID: -215449490, guid: 497c36e179980bd4092c25738963b10f, type: 3}
+  startingWeaponSprite: {fileID: -957987651, guid: 4ea0503b2aa27e74d9d00bc72eacccc5, type: 3}
+  startingWeapon: {fileID: 11400000, guid: e4380829e82257046812ad331164a3a6, type: 2}
+  animatorController: {fileID: 9100000, guid: abd87d1132d97dd49a048e99c5d64ecb, type: 2}
+  stats:
+    maxHealth: 100
+    recovery: 0
+    armor: 0
+    moveSpeed: 1
+    might: 1
+    area: 1
+    speed: 1
+    duration: 1
+    amount: 1
+    cooldown: 1
+    luck: 1.16
+    growth: 1.16
+    magnet: 1.8

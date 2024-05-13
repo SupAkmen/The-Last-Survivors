@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16d9561589517c45b16972f4439040b, type: 3}
+  m_Name: Pumarola
+  m_EditorClassIdentifier: 
+  icon: {fileID: 691450413, guid: f3d32796db76bc240a3f93a85fda910a, type: 3}
+  maxLevel: 5
+  evolutionData:
+  - name: Soul Eater
+    codition: 1
+    consumes: 2
+    evolutionLevel: 5
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 81a944cd82c27014ba89f42fe7dd2f90, type: 2}
+      level: 8
+    outcome:
+      itemType: {fileID: 11400000, guid: c27b91881146cc44588cc135fbe55930, type: 2}
+      level: 1
+  baseStats:
+    name: Pumarola
+    description: Character recovers 0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  growth:
+  - name: Level 2
+    description: Health recovery increases by  0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Level 3
+    description: Health recovery increases by  0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Level 4
+    description: Health recovery increases by  0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Level 5
+    description: Health recovery increases by  0.2 HP per second
+    boosts:
+      maxHealth: 0
+      recovery: 0.2
+      moveSpeed: 0
+      might: 0
+      speed: 0
+      magnet: 0
